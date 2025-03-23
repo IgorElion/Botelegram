@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "startCommand": "python bot_telegram_2.py",
+    "restartPolicyType": "ALWAYS"
+  }
+}
